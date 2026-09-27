@@ -3,6 +3,7 @@ services:
     name: vera-challenge-bot
     env: python
     plan: free
+    rootDir: vera-bot
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn bot:app --host 0.0.0.0 --port $PORT
     envVars:
