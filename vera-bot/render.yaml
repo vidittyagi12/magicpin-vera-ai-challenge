@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: vera-challenge-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn bot:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false          # set this manually in the Render dashboard — do not commit it
+      - key: ANTHROPIC_MODEL
+        value: claude-sonnet-4-5-20250929
+      - key: TEAM_NAME
+        value: Team Vera
+      - key: CONTACT_EMAIL
+        value: you@example.com

@@ -1,0 +1,64 @@
+{
+  "customers": [
+    {
+      "customer_id": "c_001_priya",
+      "merchant_id": "m_001_drmeera",
+      "identity": { "name": "Priya", "phone_redacted": "<phone>", "language_pref": "hi-en mix" },
+      "relationship": { "first_visit": "2025-11-04", "last_visit": "2026-05-12", "visits_total": 4,
+                        "services_received": ["cleaning", "cleaning", "whitening", "cleaning"] },
+      "state": "lapsed_soft",
+      "preferences": { "preferred_slots": "weekday_evening", "channel": "whatsapp" },
+      "consent": { "opted_in_at": "2025-11-04", "scope": ["recall_reminders", "appointment_reminders"] }
+    },
+    {
+      "customer_id": "c_002_rohit",
+      "merchant_id": "m_001_drmeera",
+      "identity": { "name": "Rohit", "phone_redacted": "<phone>", "language_pref": "en" },
+      "relationship": { "first_visit": "2026-01-10", "last_visit": "2026-02-15", "visits_total": 2,
+                        "services_received": ["consultation", "cleaning"] },
+      "state": "active",
+      "preferences": { "preferred_slots": "weekend_morning", "channel": "whatsapp" },
+      "consent": { "opted_in_at": "2026-01-10", "scope": ["appointment_reminders"] }
+    },
+    {
+      "customer_id": "c_003_anita",
+      "merchant_id": "m_003_studio11",
+      "identity": { "name": "Anita", "phone_redacted": "<phone>", "language_pref": "en" },
+      "relationship": { "first_visit": "2025-06-01", "last_visit": "2026-03-20", "visits_total": 8,
+                        "services_received": ["haircut", "keratin", "haircut", "haircut"] },
+      "state": "active",
+      "preferences": { "preferred_slots": "weekday_evening", "channel": "whatsapp" },
+      "consent": { "opted_in_at": "2025-06-01", "scope": ["recall_reminders", "promo"] }
+    },
+    {
+      "customer_id": "c_004_sanjay",
+      "merchant_id": "m_005_pizzajunction",
+      "identity": { "name": "Sanjay", "phone_redacted": "<phone>", "language_pref": "hi-en mix" },
+      "relationship": { "first_visit": "2025-08-15", "last_visit": "2025-12-01", "visits_total": 6,
+                        "services_received": ["dine_in", "delivery", "delivery"] },
+      "state": "lapsed_hard",
+      "preferences": { "preferred_slots": "weekend_evening", "channel": "whatsapp" },
+      "consent": { "opted_in_at": "2025-08-15", "scope": ["promo"] }
+    },
+    {
+      "customer_id": "c_005_neha",
+      "merchant_id": "m_007_ironpulse",
+      "identity": { "name": "Neha", "phone_redacted": "<phone>", "language_pref": "en" },
+      "relationship": { "first_visit": "2026-03-01", "last_visit": "2026-03-01", "visits_total": 1,
+                        "services_received": ["trial_session"] },
+      "state": "new",
+      "preferences": { "preferred_slots": "weekday_morning", "channel": "whatsapp" },
+      "consent": { "opted_in_at": "2026-03-01", "scope": ["appointment_reminders", "recall_reminders"] }
+    },
+    {
+      "customer_id": "c_006_farhan",
+      "merchant_id": "m_009_wellcare",
+      "identity": { "name": "Farhan", "phone_redacted": "<phone>", "language_pref": "hi-en mix" },
+      "relationship": { "first_visit": "2025-05-01", "last_visit": "2026-04-01", "visits_total": 12,
+                        "services_received": ["refill", "refill", "refill"] },
+      "state": "active",
+      "preferences": { "preferred_slots": "any", "channel": "whatsapp" },
+      "consent": { "opted_in_at": "2025-05-01", "scope": ["recall_reminders"] }
+    }
+  ]
+}

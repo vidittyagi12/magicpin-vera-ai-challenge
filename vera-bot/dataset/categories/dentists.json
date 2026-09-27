@@ -1,0 +1,36 @@
+{
+  "slug": "dentists",
+  "offer_catalog": [
+    { "title": "Dental Cleaning @ \u20b9299", "value": "299", "audience": "new_user" },
+    { "title": "Free Consultation", "value": "0", "audience": "new_user" },
+    { "title": "Teeth Whitening @ \u20b91,499", "value": "1499", "audience": "existing_patient" }
+  ],
+  "voice": {
+    "tone": "peer_clinical",
+    "vocab_allowed": ["fluoride varnish", "caries", "recall", "prophylaxis", "radiograph"],
+    "taboos": ["cure", "guaranteed", "miracle", "100% safe"]
+  },
+  "peer_stats": { "avg_rating": 4.4, "avg_reviews": 62, "avg_ctr": 0.030, "scope": "delhi_solo_practices" },
+  "digest": [
+    {
+      "id": "d_2026W17_jida_fluoride",
+      "kind": "research",
+      "title": "3-mo fluoride recall cuts caries recurrence 38% better than 6-mo",
+      "source": "JIDA Oct 2026, p.14",
+      "trial_n": 2100,
+      "patient_segment": "high_risk_adults",
+      "summary": "A 2,100-patient multi-center trial found that shifting high-risk adult patients from a 6-month to a 3-month fluoride varnish recall schedule reduced caries recurrence by 38%."
+    }
+  ],
+  "patient_content_library": [
+    { "id": "pc_001", "title": "3 things your teeth tell you about your heart", "channel": "whatsapp",
+      "body": "Did you know gum health is linked to cardiovascular health? Ask us about a check-up." }
+  ],
+  "seasonal_beats": [
+    { "month_range": "Nov-Feb", "note": "exam-stress bruxism spike" },
+    { "month_range": "Oct-Dec", "note": "wedding whitening peak" }
+  ],
+  "trend_signals": [
+    { "query": "clear aligners delhi", "delta_yoy": 0.62, "segment_age": "28-45" }
+  ]
+}

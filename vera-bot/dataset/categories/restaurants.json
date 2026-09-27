@@ -1,0 +1,26 @@
+{
+  "slug": "restaurants",
+  "offer_catalog": [
+    { "title": "Buy 1 Get 1 Pizza (weekday lunch)", "value": "bogo", "audience": "new_user" },
+    { "title": "Family Combo @ \u20b9599", "value": "599", "audience": "existing_customer" }
+  ],
+  "voice": {
+    "tone": "operator_to_operator",
+    "vocab_allowed": ["footfall", "covers", "peak hours", "table turns"],
+    "taboos": ["hype", "exclamation-heavy copy"]
+  },
+  "peer_stats": { "avg_rating": 4.2, "avg_reviews": 340, "avg_ctr": 0.028, "scope": "delhi_qsr" },
+  "digest": [
+    { "id": "d_2026W17_weekday_lunch_dip", "kind": "trend",
+      "title": "Weekday lunch footfall down 12% citywide vs last month",
+      "source": "magicpin category desk", "trial_n": null, "patient_segment": null,
+      "summary": "Citywide weekday lunch footfall is down, an opportunity window for lunch-specific offers." }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month_range": "Oct-Dec", "note": "festive catering + family-combo demand spike" }
+  ],
+  "trend_signals": [
+    { "query": "family combo delhi", "delta_yoy": 0.21, "segment_age": "all" }
+  ]
+}

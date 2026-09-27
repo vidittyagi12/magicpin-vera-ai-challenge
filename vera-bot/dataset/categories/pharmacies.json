@@ -1,0 +1,26 @@
+{
+  "slug": "pharmacies",
+  "offer_catalog": [
+    { "title": "Free BP Check", "value": "0", "audience": "new_user" },
+    { "title": "10% off Diabetes Care Range", "value": "10pct", "audience": "existing_customer" }
+  ],
+  "voice": {
+    "tone": "trustworthy_precise",
+    "vocab_allowed": ["generic substitute", "prescription refill", "stock availability"],
+    "taboos": ["medical advice", "diagnosis language", "guaranteed cure"]
+  },
+  "peer_stats": { "avg_rating": 4.5, "avg_reviews": 95, "avg_ctr": 0.026, "scope": "bangalore_pharmacies" },
+  "digest": [
+    { "id": "d_2026W17_generic_awareness", "kind": "compliance",
+      "title": "New state advisory encourages generic-substitute counselling at point of sale",
+      "source": "State Pharmacy Council circular", "trial_n": null, "patient_segment": null,
+      "summary": "Pharmacies are encouraged to proactively offer generic substitutes where clinically equivalent." }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month_range": "Jun-Sep", "note": "monsoon illness / flu medication demand spike" }
+  ],
+  "trend_signals": [
+    { "query": "diabetes care bangalore", "delta_yoy": 0.15, "segment_age": "45+" }
+  ]
+}

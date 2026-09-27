@@ -1,0 +1,26 @@
+{
+  "slug": "gyms",
+  "offer_catalog": [
+    { "title": "1-Month Trial @ \u20b9999", "value": "999", "audience": "new_user" },
+    { "title": "PT Package @ \u20b94,999", "value": "4999", "audience": "existing_member" }
+  ],
+  "voice": {
+    "tone": "coaching_motivational",
+    "vocab_allowed": ["PR", "streak", "consistency", "form check"],
+    "taboos": ["body-shaming", "unrealistic before/after promises"]
+  },
+  "peer_stats": { "avg_rating": 4.3, "avg_reviews": 150, "avg_ctr": 0.035, "scope": "mumbai_gyms" },
+  "digest": [
+    { "id": "d_2026W17_newyear_lapse", "kind": "trend",
+      "title": "New-member 90-day drop-off citywide sits at 46%",
+      "source": "magicpin category desk", "trial_n": null, "patient_segment": null,
+      "summary": "Retention past the 90-day mark is the single biggest lever for gym revenue this quarter." }
+  ],
+  "patient_content_library": [],
+  "seasonal_beats": [
+    { "month_range": "Jan-Feb", "note": "New Year resolution sign-up spike" }
+  ],
+  "trend_signals": [
+    { "query": "personal trainer mumbai", "delta_yoy": 0.18, "segment_age": "25-40" }
+  ]
+}

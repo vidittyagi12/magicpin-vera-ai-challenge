@@ -1,0 +1,140 @@
+{
+  "merchants": [
+    {
+      "merchant_id": "m_001_drmeera",
+      "category_slug": "dentists",
+      "identity": { "name": "Dr. Meera's Dental Clinic", "city": "Delhi", "locality": "Lajpat Nagar",
+                    "place_id": "ChIJ_placeholder_001", "verified": true, "languages": ["en", "hi"] },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 82 },
+      "performance": { "window_days": 30, "views": 2410, "calls": 18, "directions": 45, "ctr": 0.021,
+                       "delta_7d": { "views_pct": 0.18, "calls_pct": -0.05 } },
+      "offers": [
+        { "id": "o_meera_001", "title": "Dental Cleaning @ \u20b9299", "status": "active" },
+        { "id": "o_meera_002", "title": "Deep Cleaning @ \u20b9499", "status": "expired" }
+      ],
+      "conversation_history": [
+        { "ts": "2026-04-24T10:00:00Z", "from": "vera", "body": "Quick nudge on your profile completeness.",
+          "engagement": "merchant_replied" }
+      ],
+      "customer_aggregate": { "total_unique_ytd": 540, "lapsed_180d_plus": 78, "retention_6mo_pct": 0.38 },
+      "signals": ["stale_posts:22d", "ctr_below_peer_median", "high_risk_adult_cohort"]
+    },
+    {
+      "merchant_id": "m_002_rootcanalpro",
+      "category_slug": "dentists",
+      "identity": { "name": "RootCanal Pro Dental Studio", "city": "Delhi", "locality": "Rohini",
+                    "place_id": "ChIJ_placeholder_002", "verified": true, "languages": ["en"] },
+      "subscription": { "status": "active", "plan": "Basic", "days_remaining": 12 },
+      "performance": { "window_days": 30, "views": 980, "calls": 6, "directions": 10, "ctr": 0.015,
+                       "delta_7d": { "views_pct": -0.10, "calls_pct": -0.20 } },
+      "offers": [{ "id": "o_rcp_001", "title": "Free Consultation", "status": "active" }],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 120, "lapsed_180d_plus": 40, "retention_6mo_pct": 0.22 },
+      "signals": ["dormant_with_vera:14d", "ctr_below_peer_median", "subscription_expiring_soon"]
+    },
+    {
+      "merchant_id": "m_003_studio11",
+      "category_slug": "salons",
+      "identity": { "name": "Studio11 Family Salon", "city": "Hyderabad", "locality": "Banjara Hills",
+                    "place_id": "ChIJ_placeholder_003", "verified": true, "languages": ["en", "hi"] },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 200 },
+      "performance": { "window_days": 30, "views": 5200, "calls": 60, "directions": 90, "ctr": 0.041,
+                       "delta_7d": { "views_pct": 0.28, "calls_pct": 0.15 } },
+      "offers": [{ "id": "o_s11_001", "title": "Haircut @ \u20b999", "status": "active" }],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 900, "lapsed_180d_plus": 60, "retention_6mo_pct": 0.55 },
+      "signals": ["perf_spike:28pct", "milestone_reached:300_reviews"]
+    },
+    {
+      "merchant_id": "m_004_glamourcuts",
+      "category_slug": "salons",
+      "identity": { "name": "Glamour Cuts Unisex Salon", "city": "Hyderabad", "locality": "Kondapur",
+                    "place_id": "ChIJ_placeholder_004", "verified": false, "languages": ["hi"] },
+      "subscription": { "status": "active", "plan": "Basic", "days_remaining": 45 },
+      "performance": { "window_days": 30, "views": 700, "calls": 5, "directions": 8, "ctr": 0.012,
+                       "delta_7d": { "views_pct": -0.05, "calls_pct": -0.30 } },
+      "offers": [],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 80, "lapsed_180d_plus": 20, "retention_6mo_pct": 0.18 },
+      "signals": ["ctr_below_peer_median", "no_active_offers"]
+    },
+    {
+      "merchant_id": "m_005_pizzajunction",
+      "category_slug": "restaurants",
+      "identity": { "name": "Pizza Junction", "city": "Delhi", "locality": "Karol Bagh",
+                    "place_id": "ChIJ_placeholder_005", "verified": true, "languages": ["en", "hi"] },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 60 },
+      "performance": { "window_days": 30, "views": 3100, "calls": 40, "directions": 55, "ctr": 0.028,
+                       "delta_7d": { "views_pct": -0.15, "calls_pct": -0.22 } },
+      "offers": [{ "id": "o_pj_001", "title": "Family Combo @ \u20b9599", "status": "active" }],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 1200, "lapsed_180d_plus": 300, "retention_6mo_pct": 0.30 },
+      "signals": ["perf_dip:22pct", "weekday_lunch_opportunity"]
+    },
+    {
+      "merchant_id": "m_006_tandoortales",
+      "category_slug": "restaurants",
+      "identity": { "name": "Tandoor Tales", "city": "Delhi", "locality": "Saket",
+                    "place_id": "ChIJ_placeholder_006", "verified": true, "languages": ["en"] },
+      "subscription": { "status": "expiring", "plan": "Basic", "days_remaining": 5 },
+      "performance": { "window_days": 30, "views": 1400, "calls": 12, "directions": 20, "ctr": 0.019,
+                       "delta_7d": { "views_pct": 0.02, "calls_pct": 0.00 } },
+      "offers": [],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 400, "lapsed_180d_plus": 90, "retention_6mo_pct": 0.25 },
+      "signals": ["subscription_expiring_soon", "no_active_offers"]
+    },
+    {
+      "merchant_id": "m_007_ironpulse",
+      "category_slug": "gyms",
+      "identity": { "name": "IronPulse Fitness", "city": "Mumbai", "locality": "Andheri",
+                    "place_id": "ChIJ_placeholder_007", "verified": true, "languages": ["en", "hi"] },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 150 },
+      "performance": { "window_days": 30, "views": 2900, "calls": 33, "directions": 47, "ctr": 0.035,
+                       "delta_7d": { "views_pct": 0.10, "calls_pct": 0.08 } },
+      "offers": [{ "id": "o_ip_001", "title": "1-Month Trial @ \u20b9999", "status": "active" }],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 600, "lapsed_180d_plus": 250, "retention_6mo_pct": 0.40 },
+      "signals": ["high_90day_dropoff_risk"]
+    },
+    {
+      "merchant_id": "m_008_flexzone",
+      "category_slug": "gyms",
+      "identity": { "name": "FlexZone Gym", "city": "Mumbai", "locality": "Powai",
+                    "place_id": "ChIJ_placeholder_008", "verified": false, "languages": ["hi"] },
+      "subscription": { "status": "active", "plan": "Basic", "days_remaining": 90 },
+      "performance": { "window_days": 30, "views": 1100, "calls": 9, "directions": 14, "ctr": 0.017,
+                       "delta_7d": { "views_pct": -0.08, "calls_pct": -0.10 } },
+      "offers": [],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 200, "lapsed_180d_plus": 100, "retention_6mo_pct": 0.20 },
+      "signals": ["ctr_below_peer_median", "dormant_with_vera:20d"]
+    },
+    {
+      "merchant_id": "m_009_wellcare",
+      "category_slug": "pharmacies",
+      "identity": { "name": "WellCare Pharmacy", "city": "Bangalore", "locality": "Indiranagar",
+                    "place_id": "ChIJ_placeholder_009", "verified": true, "languages": ["en", "hi"] },
+      "subscription": { "status": "active", "plan": "Pro", "days_remaining": 300 },
+      "performance": { "window_days": 30, "views": 1800, "calls": 22, "directions": 30, "ctr": 0.026,
+                       "delta_7d": { "views_pct": 0.05, "calls_pct": 0.03 } },
+      "offers": [{ "id": "o_wc_001", "title": "Free BP Check", "status": "active" }],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 700, "lapsed_180d_plus": 150, "retention_6mo_pct": 0.45 },
+      "signals": ["milestone_reached:100_reviews"]
+    },
+    {
+      "merchant_id": "m_010_citymeds",
+      "category_slug": "pharmacies",
+      "identity": { "name": "CityMeds Pharmacy", "city": "Bangalore", "locality": "Whitefield",
+                    "place_id": "ChIJ_placeholder_010", "verified": true, "languages": ["en"] },
+      "subscription": { "status": "active", "plan": "Basic", "days_remaining": 20 },
+      "performance": { "window_days": 30, "views": 900, "calls": 8, "directions": 12, "ctr": 0.016,
+                       "delta_7d": { "views_pct": -0.12, "calls_pct": -0.18 } },
+      "offers": [],
+      "conversation_history": [],
+      "customer_aggregate": { "total_unique_ytd": 300, "lapsed_180d_plus": 90, "retention_6mo_pct": 0.28 },
+      "signals": ["ctr_below_peer_median", "subscription_expiring_soon"]
+    }
+  ]
+}

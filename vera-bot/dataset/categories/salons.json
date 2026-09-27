@@ -1,0 +1,30 @@
+{
+  "slug": "salons",
+  "offer_catalog": [
+    { "title": "Haircut @ \u20b999", "value": "99", "audience": "new_user" },
+    { "title": "Keratin Treatment @ \u20b91,999", "value": "1999", "audience": "existing_patron" },
+    { "title": "Bridal Trial @ \u20b9499", "value": "499", "audience": "new_user" }
+  ],
+  "voice": {
+    "tone": "warm_friendly",
+    "vocab_allowed": ["glow-up", "touch-up", "trend", "look"],
+    "taboos": ["guaranteed results", "medical claims"]
+  },
+  "peer_stats": { "avg_rating": 4.6, "avg_reviews": 210, "avg_ctr": 0.041, "scope": "hyderabad_salons" },
+  "digest": [
+    { "id": "d_2026W17_balayage_trend", "kind": "trend",
+      "title": "Balayage bookings up 44% this month across partner salons",
+      "source": "magicpin category desk", "trial_n": null, "patient_segment": null,
+      "summary": "Balayage-related searches and bookings are trending up sharply this month." }
+  ],
+  "patient_content_library": [
+    { "id": "pc_101", "title": "5 festive hairstyles trending this week", "channel": "whatsapp",
+      "body": "Here are 5 looks your customers are asking for this festive season." }
+  ],
+  "seasonal_beats": [
+    { "month_range": "Oct-Nov", "note": "festive/wedding season booking surge" }
+  ],
+  "trend_signals": [
+    { "query": "balayage hyderabad", "delta_yoy": 0.44, "segment_age": "20-35" }
+  ]
+}
